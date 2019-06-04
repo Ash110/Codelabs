@@ -1,0 +1,11 @@
+.Section{
+    position:relative;
+    height: 6%;
+    border-radius: 5px;
+    padding: 5%;
+    margin: 10%;
+}
+
+.active{
+    background-color: rgb(156, 243, 170);
+}
