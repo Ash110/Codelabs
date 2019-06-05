@@ -4,7 +4,9 @@ import './Header.css';
 const Header = (props) => {
     let BtnClass = ["NextBtn"]
     if (props.verified === false) {
-        BtnClass.push("invisible");
+        BtnClass.push("red");
+    }else{
+        BtnClass.push("blue");
     }
     return(
         <div className="HeaderBody">

@@ -19,14 +19,17 @@
     right: 2%;
     top: 25%;
     width: 10%;
-    background: teal;
     color: white;
     border-style: none;
     font-size: 1.5rem;
     border-radius: 4px;
 }
-.invisible{
-    visibility: hidden;
+.red{
+    background: rgb(247, 106, 106);
+    cursor: not-allowed;
+}
+.blue{
+    background: rgb(106, 167, 247);
 }
 .PrevBtn{
     position: absolute;
