@@ -1,11 +1,11 @@
 .Section{
     position:relative;
-    height: 6%;
     border-radius: 5px;
     padding: 5%;
     margin: 10%;
 }
 
-.active{
+.active_section{
     background-color: rgb(156, 243, 170);
+    font-weight: bold;
 }

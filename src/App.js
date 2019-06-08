@@ -23,7 +23,7 @@ class App extends React.Component {
     }
     prevpage = () => {
         let temp = this.state.page;
-        if (temp >= 1) {
+        if (temp >1) {
             temp -= 1;
             this.setState({
                 page: temp

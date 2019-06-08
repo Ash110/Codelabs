@@ -21,7 +21,7 @@
     width: 10%;
     color: white;
     border-style: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 4px;
 }
 .red{
@@ -37,7 +37,7 @@
     top: 25%;
     width: 10%;
     border-style: none;
-    background: #f9fdbe;
-    font-size: 1.5rem;
+    /* background: #f9fdbe; */
+    font-size: 1.2rem;
     border-radius: 4px;
 }

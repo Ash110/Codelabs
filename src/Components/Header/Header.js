@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 
 const Header = (props) => {
-    let BtnClass = ["NextBtn"]
+    let BtnClass = ["NextBtn btn"]
     if (props.verified === false) {
         BtnClass.push("red");
     }else{
@@ -14,7 +14,7 @@ const Header = (props) => {
                 {props.title}
             </p>
             <button className={BtnClass.join(' ')} onClick={props.nextclick}>Next</button>
-            <button className="PrevBtn" onClick={props.prevclick}>Previous</button>
+            <button className="PrevBtn btn" onClick={props.prevclick}>Previous</button>
         </div>
     )
 }
